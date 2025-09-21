@@ -1,6 +1,6 @@
 *.git
 
-Data/       
+Data/Raw   
 
 .ipynb_checkpoints/ 
 
