@@ -5,3 +5,5 @@ Data/Raw
 .ipynb_checkpoints/ 
 
 secret_keys.txt     
+
+src/__pycache__
