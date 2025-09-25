@@ -1,5 +1,7 @@
+import pandas as pd
+import numpy as np
+
 def load_data(path):
-    import pandas as pd
     return pd.read_csv(path)
 
 def preprocess_mis_val(df):
@@ -13,7 +15,6 @@ def drop_cols(df):
     return df
 
 def feature_engi(df):
-    import numpy as np
     df['FamilySize']=df['SibSp']+df['Parch']+1
     df['IsAlone'] = np.where(df['FamilySize']==1, 1, 0)
     return df
