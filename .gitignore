@@ -7,3 +7,5 @@ Data/Raw
 secret_keys.txt     
 
 src/__pycache__
+
+models/

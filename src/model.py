@@ -179,11 +179,11 @@ def kaggle_subm_set(path,model):
         submission.to_csv("D:\Thiru\ML_Projects\Titanic-Survival-Prediction\Submission.csv",index=False)
         print("Submission file created: submission.csv")
 
-def save_model(model,filename="D:\Thiru\ML_Projects\Titanic-Survival-Prediction\models.py\model.pkl"):
+def save_model(model,filename="D:\Thiru\ML_Projects\Titanic-Survival-Prediction\models\model.pkl"):
     joblib.dump(model, filename)
     print(f'model saved to {filename}')
 
-def load_model(filename="D:\Thiru\ML_Projects\Titanic-Survival-Prediction\models.py\model.pkl"):
+def load_model(filename="D:\Thiru\ML_Projects\Titanic-Survival-Prediction\models\model.pkl"):
     model=joblib.load(filename)
     print(f'model loaded from {filename}')
     return model
