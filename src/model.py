@@ -1,3 +1,4 @@
+import joblib
 import pandas as pd
 import numpy as np
 import seaborn as sns 
@@ -177,3 +178,12 @@ def kaggle_subm_set(path,model):
     
         submission.to_csv("D:\Thiru\ML_Projects\Titanic-Survival-Prediction\Submission.csv",index=False)
         print("Submission file created: submission.csv")
+
+def save_model(model,filename="D:\Thiru\ML_Projects\Titanic-Survival-Prediction\models.py\model.pkl"):
+    joblib.dump(model, filename)
+    print(f'model saved to {filename}')
+
+def load_model(filename="D:\Thiru\ML_Projects\Titanic-Survival-Prediction\models.py\model.pkl"):
+    model=joblib.load(filename)
+    print(f'model loaded from {filename}')
+    return model
