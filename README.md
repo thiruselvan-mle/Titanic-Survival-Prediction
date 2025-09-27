@@ -1,71 +1,64 @@
-# Titanic Survival Prediction
-<img src="app/titanic.png" alt="APP DEMO" width="100%" height="500">
+# Titanic Survival Prediction 🚢✨
 
-## 📌 Project Overview
-This project predicts whether a passenger would have survived the Titanic disaster based on personal and travel details such as class, age, gender, fare, and more.  
-It uses a **Random Forest Classifier** trained on the Titanic dataset.
+Predict whether a passenger survived the Titanic disaster using **Python**, **Pandas**, **Scikit-Learn**, and **Streamlit**.  
 
-This repository is designed for **beginners starting their Machine Learning journey**, showing how to approach a Kaggle competition step by step in a simple and clear way.  
+- Interactive web app with **custom UI**  
+- Predicts **survival probability** based on passenger details (class, age, gender, fare)  
+- Uses **Random Forest Classifier**  
+- Beginner-friendly project to learn **data analysis, feature engineering, ML, and deployment**  
 
-The app is built with:
-- **Python**
-- **Pandas**
-- **Scikit-Learn**
-- **Streamlit** (for the interactive web app)
+📊 Demo:  
+<img src="app/titanic.png" alt="APP DEMO" width="100%" height="600">
 
----
+📚 Dataset: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)  
 
-## 📂 Project Structure
-
-titanic-survival/
-├─ data/ # Dataset files
-├─ notebooks/ # Jupyter notebooks for EDA & model training
-├─ src/ # Source code (model loading, utils, preprocessing)
-├─ models/ # Saved ML models (.pkl files)
-├─ app/ # Streamlit app files (UI + background image)
-├─ requirements.txt # Python dependencies
-├─ README.md # Project documentation
-└─ .gitignore # Ignored files
-
-yaml
-Copy code
-
----
-
-## ⚡ Quick Start
-
-1. **Clone the repository**
+▶️ Run the app:  
 ```bash
 git clone https://github.com/your-username/titanic-survival.git
 cd titanic-survival
-Create and activate a virtual environment
+pip install -r requirements.txt
+streamlit run app/app.py
+Author: Thiruselvan M | Built with ❤️ using Streamlit & Scikit-Learn
 
+📌 Project Overview
+This project predicts whether a passenger would have survived the Titanic disaster based on personal and travel details such as class, age, gender, fare, and more.
+It uses a Random Forest Classifier trained on the Titanic dataset.
+
+This repository is designed for beginners starting their Machine Learning journey, showing how to approach a Kaggle competition step by step in a simple and clear way.
+
+📂 Project Structure
 bash
 Copy code
-# Windows
+titanic-survival/
+├─ data/          # Dataset files
+├─ notebooks/     # Jupyter notebooks for EDA & model training
+├─ src/           # Source code (model loading, utils, preprocessing)
+├─ models/        # Saved ML models (.pkl files)
+├─ app/           # Streamlit app files (UI + background image)
+├─ requirements.txt  # Python dependencies
+├─ README.md      # Project documentation
+└─ .gitignore     # Ignored files
+⚡ Quick Start
+bash
+Copy code
+# Clone the repo
+git clone https://github.com/your-username/titanic-survival.git
+cd titanic-survival
+
+# Create & activate virtual environment (Windows)
 python -m venv venv
 venv\Scripts\activate
 
 # Mac/Linux
 python -m venv venv
 source venv/bin/activate
-Install dependencies
 
-bash
-Copy code
+# Install dependencies
 pip install -r requirements.txt
-Run the Streamlit app
 
-bash
-Copy code
+# Run the app
 streamlit run app/app.py
-Open http://localhost:8501 in your browser to see the app.
-
-📊 App Demo
-<img src="app/Titanic.png" alt="APP DEMO" width="500">
-📚 Dataset
-The dataset used is the Kaggle Titanic Dataset:
-Titanic - Machine Learning from Disaster
+Open http://localhost:8501 in your browser.
 
 🛠️ Features
 Interactive web app with custom background and styled UI
