@@ -1,3 +1,3 @@
 # Titanic Survival Prediction
-![App Demo](app/Titanic.png)
+![App Demo](app/titanic.png)
 
