@@ -1,7 +1,7 @@
 # Titanic Survival Prediction
 <img src="app/titanic.png" alt="APP DEMO" width="100%" height="500">
 
-## 📌 Project Overview
+##  Project Overview
 This project predicts whether a passenger would have survived the Titanic disaster based on personal and travel details such as class, age, gender, fare, and more.  
 It uses a **Random Forest Classifier** trained on the Titanic dataset.
 
@@ -15,7 +15,7 @@ The app is built with:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 titanic-survival/
 ├─ data/ # Dataset files
 ├─ notebooks/ # Jupyter notebooks for EDA & model training
@@ -25,4 +25,15 @@ titanic-survival/
 ├─ requirements.txt # Python dependencies
 ├─ README.md # Project documentation
 └─ .gitignore # Ignored files
+
+## Quick Start
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/titanic-survival.git
+cd titanic-survival
+
+## Create and activate a virtual environment
+python -m venv venv
+venv\Scripts\activate
 
