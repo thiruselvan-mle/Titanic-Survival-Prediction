@@ -17,6 +17,7 @@ This project is built to help beginners understand the complete ML pipeline and 
 ---
 
 ## Project Structure
+```bash
 project-name/
 ├─ data/ # Dataset (not pushed to GitHub)
 ├─ notebooks/ # Jupyter notebooks (EDA, model training)
@@ -26,15 +27,15 @@ project-name/
 ├─ requirements.txt # Dependencies
 ├─ README.md # Project documentation
 └─ .gitignore # Files to ignore
-
+```
 ---
 
 ## Installation
 
  1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/titanic-survival-prediction.git
-   cd titanic-survival-prediction
+   git clone https://github.com/thiruselvan-mle/project.git
+   cd Titanic-Survival-Prediction
    ```
  2. Create a virtual environment:
    ```bash
@@ -53,6 +54,7 @@ project-name/
    streamlit run app/app.py
    Then open the browser at http://localhost:8501
    ```
+---
 ## Demo
   User inputs passenger details (Age, Sex, Pclass, Fare, Family info).
 
@@ -63,12 +65,15 @@ project-name/
 
   <img src=app/demo.png width=100% height=600>
 
+---
 ## Model Performance
   Algorithm: Random Forest Classifier
 
   Accuracy: ~80% (varies depending on training)
 
   Evaluated using cross-validation and test split.
+  
+---
 ## Features
   Clean ML pipeline (EDA → Preprocessing → Feature Engineering → Modeling).
 
@@ -77,24 +82,20 @@ project-name/
   Modular project structure for scalability.
 
   Beginner-friendly and easy to extend.
+
+---
 ## Acknowledgments
   Kaggle Titanic Dataset
 
   Scikit-learn, Pandas, NumPy, Matplotlib, Streamlit
 
-## Future Work
-  Improve feature engineering (titles from names, cabin info).
-
-  Try advanced models (XGBoost, LightGBM).
-
-  Deploy the app on Streamlit Cloud or Heroku.
-
+ ---
 ## Author
   Thiruselvan Muthuraman
-
-GitHub: @thiruselvan-mle
-
-LinkedIn: 
+  
+  GitHub: @thiruselvan-mle
+   
+  LinkedIn: https://www.linkedin.com/in/thiruselvan-muthuraman-7506b6387/
 
 
 
