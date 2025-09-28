@@ -6,7 +6,7 @@ This project is built to help beginners understand the complete ML pipeline and 
 
 ---
 
-<img src=app/titanic.png width=400 height=600>
+<img src=app/titanic.png width=100% height=600>
 
 ## Project Overview
 - Cleaned and preprocessed the Titanic dataset (from [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic)).  
@@ -37,18 +37,17 @@ project-name/
    cd titanic-survival-prediction
    
 2.Create a virtual environment:
-  bash
+  ```bash
   python -m venv venv
   source venv/bin/activate   # On Mac/Linux
   venv\Scripts\activate      # On Windows
   
 3.Install dependencies:
-  bash
+  ```bash
   pip install -r requirements.txt
 
 4.Run the Streamlit App
-  bash
-
+  ```bash
   streamlit run app/app.py
   Then open the browser at http://localhost:8501
 
