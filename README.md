@@ -6,7 +6,7 @@ This project is built to help beginners understand the complete ML pipeline and 
 
 ---
 
-<img src=app/titanic.png width=100% height=600>
+<img src=app/titanic1.gif width=100% height=600>
 
 ## Project Overview
 - Cleaned and preprocessed the Titanic dataset (from [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic)).  
@@ -17,23 +17,24 @@ This project is built to help beginners understand the complete ML pipeline and 
 ---
 
 ## Project Structure
+bash
 project-name/
-├─ data/ # Dataset (not pushed to GitHub)
-├─ notebooks/ # Jupyter notebooks (EDA, model training)
-├─ src/ # Source code (model.py, utils, etc.)
-├─ models/ # Saved ML models (ignored in GitHub)
-├─ app/ # Streamlit app (app.py)
-├─ requirements.txt # Dependencies
-├─ README.md # Project documentation
-└─ .gitignore # Files to ignore
+├─ data/                 # Dataset (not pushed to GitHub)
+├─ notebooks/            # Jupyter notebooks (EDA, model training)
+├─ src/                  # Source code (model.py, utils, etc.)
+├─ models/               # Saved ML models (ignored in GitHub)
+├─ app/                  # Streamlit app (app.py)
+├─ requirements.txt      # Dependencies
+├─ README.md             # Project documentation
+└─ .gitignore            # Files to ignore
 
 ---
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/titanic-survival-prediction.git
-   cd titanic-survival-prediction
+   git clone https://github.com/thiruselvan-mle/Titanic-Survival-Prediction.git
+   cd Titanic-Survival-Prediction
    ```
 2. Create a virtual environment:
    ```bash
@@ -60,8 +61,8 @@ project-name/
 
   Probability of survival is also shown with a progress bar.
 
-
-  (Replace with your app screenshot or GIF)
+  <img src=app/demo.png width=100% height=600>
+  
 
 ## Model Performance
   Algorithm: Random Forest Classifier
@@ -93,6 +94,6 @@ project-name/
 ## Author
   Thiruselvan Muthuraman
 
-  GitHub: 
+  GitHub: thiruselvan-mle
 
   LinkedIn:
