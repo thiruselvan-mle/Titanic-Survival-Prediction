@@ -35,21 +35,23 @@ project-name/
    git clone https://github.com/your-username/titanic-survival-prediction.git
    cd titanic-survival-prediction
    ```
-2.Create a virtual environment:
-  ```bash
-  python -m venv venv
-  source venv/bin/activate   # On Mac/Linux
-  venv\Scripts\activate      # On Windows
-  ```
-3.Install dependencies:
-  ```bash
-  pip install -r requirements.txt
-  ```
-4.Run the Streamlit App
-  ```bash
-  streamlit run app/app.py
-  Then open the browser at http://localhost:8501
-  ```
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   # On Mac/Linux
+   source venv/bin/activate
+   # On Windows
+   venv\Scripts\activate      
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the Streamlit App
+   ```bash
+   streamlit run app/app.py
+   Then open the browser at http://localhost:8501
+   ```
 
 ## Demo
   User inputs passenger details (Age, Sex, Pclass, Fare, Family info).
