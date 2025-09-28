@@ -72,7 +72,7 @@ project-name/
 ## Model Performance
   Algorithm: Random Forest Classifier
 
-  Accuracy: ~80% (varies depending on training)
+  Accuracy: ~81% (varies depending on training)
 
   Evaluated using cross-validation and test split.
 
