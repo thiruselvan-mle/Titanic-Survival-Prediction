@@ -1,1 +1,97 @@
+# Titanic Survival Prediction
 
+An end-to-end Machine Learning project that predicts whether a passenger would have survived the Titanic disaster based on their details such as **class, age, gender, fare, and family information**.  
+
+This project is built to help beginners understand the complete ML pipeline and how to deploy a predictive model using **Streamlit**.
+
+---
+
+<img src=app/titanic.png width=400 height=600>
+
+## Project Overview
+- Cleaned and preprocessed the Titanic dataset (from [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic)).  
+- Engineered useful features such as **FamilySize** and **IsAlone**.  
+- Trained a **Random Forest Classifier** for survival prediction.  
+- Built an interactive web app with **Streamlit** to showcase predictions.  
+
+---
+
+## Project Structure
+project-name/
+├─ data/ # Dataset (not pushed to GitHub)
+├─ notebooks/ # Jupyter notebooks (EDA, model training)
+├─ src/ # Source code (model.py, utils, etc.)
+├─ models/ # Saved ML models (ignored in GitHub)
+├─ app/ # Streamlit app (app.py)
+├─ requirements.txt # Dependencies
+├─ README.md # Project documentation
+└─ .gitignore # Files to ignore
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/titanic-survival-prediction.git
+   cd titanic-survival-prediction
+   
+2.Create a virtual environment:
+  bash
+  python -m venv venv
+  source venv/bin/activate   # On Mac/Linux
+  venv\Scripts\activate      # On Windows
+  
+3.Install dependencies:
+  bash
+  pip install -r requirements.txt
+
+4.Run the Streamlit App
+  bash
+
+  streamlit run app/app.py
+  Then open the browser at http://localhost:8501
+
+## Demo
+  User inputs passenger details (Age, Sex, Pclass, Fare, Family info).
+
+  Model predicts Survived ✅ or Did Not Survive ❌.
+
+  Probability of survival is also shown with a progress bar.
+
+
+  (Replace with your app screenshot or GIF)
+
+## Model Performance
+  Algorithm: Random Forest Classifier
+
+  Accuracy: ~80% (varies depending on training)
+
+  Evaluated using cross-validation and test split.
+## Features
+  Clean ML pipeline (EDA → Preprocessing → Feature Engineering → Modeling).
+
+  Interactive app with Streamlit.
+
+  Modular project structure for scalability.
+
+  Beginner-friendly and easy to extend.
+
+## Acknowledgments
+  Kaggle Titanic Dataset
+
+  Scikit-learn, Pandas, NumPy, Matplotlib, Streamlit
+
+## Future Work
+  Improve feature engineering (titles from names, cabin info).
+
+  Try advanced models (XGBoost, LightGBM).
+
+  Deploy the app on Streamlit Cloud or Heroku.
+
+## Author
+  Thiruselvan Muthuraman
+
+  GitHub: 
+
+  LinkedIn:
