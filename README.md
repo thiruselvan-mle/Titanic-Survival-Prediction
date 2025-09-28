@@ -20,7 +20,7 @@ This project is built to help beginners understand the complete ML pipeline and 
 ```bash
 
 project-name/
-├─ data/ # Dataset (not pushed to GitHub)
+├─ data/ # Dataset (Raw data not pushed to GitHub)
 ├─ notebooks/ # Jupyter notebooks (EDA, model training)
 ├─ src/ # Source code (model.py, utils, etc.)
 ├─ models/ # Saved ML models (ignored in GitHub)
