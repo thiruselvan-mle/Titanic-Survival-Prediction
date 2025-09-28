@@ -30,11 +30,12 @@ project-name/
 ---
 
 ## Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/thiruselvan-mle/Titanic-Survival-Prediction.git
    cd Titanic-Survival-Prediction
-   ```
+   ``` 
 2. Create a virtual environment:
    ```bash
    python -m venv venv
