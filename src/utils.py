@@ -49,4 +49,4 @@ def plot_fare_distribution(df):
 def plot_fare_vs_survival(df):
     sns.boxplot(x='Survived', y='Fare', data=df)
     plt.title('Fare vs Survival')
-    plt.show()
+    plt.show()   

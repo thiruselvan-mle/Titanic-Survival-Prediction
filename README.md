@@ -69,7 +69,7 @@ project-name/
   <img src=app/demo.png width=100% height=600>
 
 ---
-## Model Performance
+## Model Performance   
   Algorithm: Random Forest Classifier
 
   Accuracy: ~81% (varies depending on training)
