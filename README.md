@@ -100,6 +100,5 @@ project-name/
    
   LinkedIn: https://www.linkedin.com/in/thiruselvan-muthuraman-7506b6387/
 
-
-
-
+## 📜 License
+**This project is licensed under the MIT License**
